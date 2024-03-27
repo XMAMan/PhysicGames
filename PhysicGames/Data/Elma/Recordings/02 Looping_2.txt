@@ -1,0 +1,481 @@
+{
+  "$type": "KeyboardRecordAndPlay.KeyBoardRecordData, KeyboardRecordAndPlay",
+  "KeyEvents": {
+    "$type": "KeyboardRecordAndPlay.KeyEvents[], KeyboardRecordAndPlay",
+    "$values": [
+      {
+        "$type": "KeyboardRecordAndPlay.KeyEvents, KeyboardRecordAndPlay",
+        "TimerTick": 0,
+        "Events": {
+          "$type": "KeyboardRecordAndPlay.KeyEvent[], KeyboardRecordAndPlay",
+          "$values": [
+            {
+              "$type": "KeyboardRecordAndPlay.KeyEvent, KeyboardRecordAndPlay",
+              "Key": 6,
+              "IsKeyDown": false
+            }
+          ]
+        }
+      },
+      {
+        "$type": "KeyboardRecordAndPlay.KeyEvents, KeyboardRecordAndPlay",
+        "TimerTick": 9,
+        "Events": {
+          "$type": "KeyboardRecordAndPlay.KeyEvent[], KeyboardRecordAndPlay",
+          "$values": [
+            {
+              "$type": "KeyboardRecordAndPlay.KeyEvent, KeyboardRecordAndPlay",
+              "Key": 24,
+              "IsKeyDown": true
+            }
+          ]
+        }
+      },
+      {
+        "$type": "KeyboardRecordAndPlay.KeyEvents, KeyboardRecordAndPlay",
+        "TimerTick": 24,
+        "Events": {
+          "$type": "KeyboardRecordAndPlay.KeyEvent[], KeyboardRecordAndPlay",
+          "$values": [
+            {
+              "$type": "KeyboardRecordAndPlay.KeyEvent, KeyboardRecordAndPlay",
+              "Key": 24,
+              "IsKeyDown": false
+            }
+          ]
+        }
+      },
+      {
+        "$type": "KeyboardRecordAndPlay.KeyEvents, KeyboardRecordAndPlay",
+        "TimerTick": 28,
+        "Events": {
+          "$type": "KeyboardRecordAndPlay.KeyEvent[], KeyboardRecordAndPlay",
+          "$values": [
+            {
+              "$type": "KeyboardRecordAndPlay.KeyEvent, KeyboardRecordAndPlay",
+              "Key": 24,
+              "IsKeyDown": true
+            }
+          ]
+        }
+      },
+      {
+        "$type": "KeyboardRecordAndPlay.KeyEvents, KeyboardRecordAndPlay",
+        "TimerTick": 44,
+        "Events": {
+          "$type": "KeyboardRecordAndPlay.KeyEvent[], KeyboardRecordAndPlay",
+          "$values": [
+            {
+              "$type": "KeyboardRecordAndPlay.KeyEvent, KeyboardRecordAndPlay",
+              "Key": 24,
+              "IsKeyDown": false
+            }
+          ]
+        }
+      },
+      {
+        "$type": "KeyboardRecordAndPlay.KeyEvents, KeyboardRecordAndPlay",
+        "TimerTick": 54,
+        "Events": {
+          "$type": "KeyboardRecordAndPlay.KeyEvent[], KeyboardRecordAndPlay",
+          "$values": [
+            {
+              "$type": "KeyboardRecordAndPlay.KeyEvent, KeyboardRecordAndPlay",
+              "Key": 26,
+              "IsKeyDown": true
+            }
+          ]
+        }
+      },
+      {
+        "$type": "KeyboardRecordAndPlay.KeyEvents, KeyboardRecordAndPlay",
+        "TimerTick": 63,
+        "Events": {
+          "$type": "KeyboardRecordAndPlay.KeyEvent[], KeyboardRecordAndPlay",
+          "$values": [
+            {
+              "$type": "KeyboardRecordAndPlay.KeyEvent, KeyboardRecordAndPlay",
+              "Key": 25,
+              "IsKeyDown": true
+            }
+          ]
+        }
+      },
+      {
+        "$type": "KeyboardRecordAndPlay.KeyEvents, KeyboardRecordAndPlay",
+        "TimerTick": 66,
+        "Events": {
+          "$type": "KeyboardRecordAndPlay.KeyEvent[], KeyboardRecordAndPlay",
+          "$values": [
+            {
+              "$type": "KeyboardRecordAndPlay.KeyEvent, KeyboardRecordAndPlay",
+              "Key": 26,
+              "IsKeyDown": false
+            }
+          ]
+        }
+      },
+      {
+        "$type": "KeyboardRecordAndPlay.KeyEvents, KeyboardRecordAndPlay",
+        "TimerTick": 67,
+        "Events": {
+          "$type": "KeyboardRecordAndPlay.KeyEvent[], KeyboardRecordAndPlay",
+          "$values": [
+            {
+              "$type": "KeyboardRecordAndPlay.KeyEvent, KeyboardRecordAndPlay",
+              "Key": 25,
+              "IsKeyDown": false
+            }
+          ]
+        }
+      },
+      {
+        "$type": "KeyboardRecordAndPlay.KeyEvents, KeyboardRecordAndPlay",
+        "TimerTick": 90,
+        "Events": {
+          "$type": "KeyboardRecordAndPlay.KeyEvent[], KeyboardRecordAndPlay",
+          "$values": [
+            {
+              "$type": "KeyboardRecordAndPlay.KeyEvent, KeyboardRecordAndPlay",
+              "Key": 23,
+              "IsKeyDown": true
+            }
+          ]
+        }
+      },
+      {
+        "$type": "KeyboardRecordAndPlay.KeyEvents, KeyboardRecordAndPlay",
+        "TimerTick": 102,
+        "Events": {
+          "$type": "KeyboardRecordAndPlay.KeyEvent[], KeyboardRecordAndPlay",
+          "$values": [
+            {
+              "$type": "KeyboardRecordAndPlay.KeyEvent, KeyboardRecordAndPlay",
+              "Key": 23,
+              "IsKeyDown": false
+            }
+          ]
+        }
+      },
+      {
+        "$type": "KeyboardRecordAndPlay.KeyEvents, KeyboardRecordAndPlay",
+        "TimerTick": 112,
+        "Events": {
+          "$type": "KeyboardRecordAndPlay.KeyEvent[], KeyboardRecordAndPlay",
+          "$values": [
+            {
+              "$type": "KeyboardRecordAndPlay.KeyEvent, KeyboardRecordAndPlay",
+              "Key": 24,
+              "IsKeyDown": true
+            }
+          ]
+        }
+      },
+      {
+        "$type": "KeyboardRecordAndPlay.KeyEvents, KeyboardRecordAndPlay",
+        "TimerTick": 169,
+        "Events": {
+          "$type": "KeyboardRecordAndPlay.KeyEvent[], KeyboardRecordAndPlay",
+          "$values": [
+            {
+              "$type": "KeyboardRecordAndPlay.KeyEvent, KeyboardRecordAndPlay",
+              "Key": 24,
+              "IsKeyDown": false
+            }
+          ]
+        }
+      },
+      {
+        "$type": "KeyboardRecordAndPlay.KeyEvents, KeyboardRecordAndPlay",
+        "TimerTick": 174,
+        "Events": {
+          "$type": "KeyboardRecordAndPlay.KeyEvent[], KeyboardRecordAndPlay",
+          "$values": [
+            {
+              "$type": "KeyboardRecordAndPlay.KeyEvent, KeyboardRecordAndPlay",
+              "Key": 24,
+              "IsKeyDown": true
+            }
+          ]
+        }
+      },
+      {
+        "$type": "KeyboardRecordAndPlay.KeyEvents, KeyboardRecordAndPlay",
+        "TimerTick": 190,
+        "Events": {
+          "$type": "KeyboardRecordAndPlay.KeyEvent[], KeyboardRecordAndPlay",
+          "$values": [
+            {
+              "$type": "KeyboardRecordAndPlay.KeyEvent, KeyboardRecordAndPlay",
+              "Key": 23,
+              "IsKeyDown": true
+            }
+          ]
+        }
+      },
+      {
+        "$type": "KeyboardRecordAndPlay.KeyEvents, KeyboardRecordAndPlay",
+        "TimerTick": 207,
+        "Events": {
+          "$type": "KeyboardRecordAndPlay.KeyEvent[], KeyboardRecordAndPlay",
+          "$values": [
+            {
+              "$type": "KeyboardRecordAndPlay.KeyEvent, KeyboardRecordAndPlay",
+              "Key": 24,
+              "IsKeyDown": false
+            }
+          ]
+        }
+      },
+      {
+        "$type": "KeyboardRecordAndPlay.KeyEvents, KeyboardRecordAndPlay",
+        "TimerTick": 208,
+        "Events": {
+          "$type": "KeyboardRecordAndPlay.KeyEvent[], KeyboardRecordAndPlay",
+          "$values": [
+            {
+              "$type": "KeyboardRecordAndPlay.KeyEvent, KeyboardRecordAndPlay",
+              "Key": 23,
+              "IsKeyDown": true
+            },
+            {
+              "$type": "KeyboardRecordAndPlay.KeyEvent, KeyboardRecordAndPlay",
+              "Key": 23,
+              "IsKeyDown": false
+            }
+          ]
+        }
+      },
+      {
+        "$type": "KeyboardRecordAndPlay.KeyEvents, KeyboardRecordAndPlay",
+        "TimerTick": 222,
+        "Events": {
+          "$type": "KeyboardRecordAndPlay.KeyEvent[], KeyboardRecordAndPlay",
+          "$values": [
+            {
+              "$type": "KeyboardRecordAndPlay.KeyEvent, KeyboardRecordAndPlay",
+              "Key": 18,
+              "IsKeyDown": true
+            }
+          ]
+        }
+      },
+      {
+        "$type": "KeyboardRecordAndPlay.KeyEvents, KeyboardRecordAndPlay",
+        "TimerTick": 225,
+        "Events": {
+          "$type": "KeyboardRecordAndPlay.KeyEvent[], KeyboardRecordAndPlay",
+          "$values": [
+            {
+              "$type": "KeyboardRecordAndPlay.KeyEvent, KeyboardRecordAndPlay",
+              "Key": 18,
+              "IsKeyDown": false
+            }
+          ]
+        }
+      },
+      {
+        "$type": "KeyboardRecordAndPlay.KeyEvents, KeyboardRecordAndPlay",
+        "TimerTick": 232,
+        "Events": {
+          "$type": "KeyboardRecordAndPlay.KeyEvent[], KeyboardRecordAndPlay",
+          "$values": [
+            {
+              "$type": "KeyboardRecordAndPlay.KeyEvent, KeyboardRecordAndPlay",
+              "Key": 26,
+              "IsKeyDown": true
+            },
+            {
+              "$type": "KeyboardRecordAndPlay.KeyEvent, KeyboardRecordAndPlay",
+              "Key": 23,
+              "IsKeyDown": true
+            }
+          ]
+        }
+      },
+      {
+        "$type": "KeyboardRecordAndPlay.KeyEvents, KeyboardRecordAndPlay",
+        "TimerTick": 236,
+        "Events": {
+          "$type": "KeyboardRecordAndPlay.KeyEvent[], KeyboardRecordAndPlay",
+          "$values": [
+            {
+              "$type": "KeyboardRecordAndPlay.KeyEvent, KeyboardRecordAndPlay",
+              "Key": 23,
+              "IsKeyDown": false
+            }
+          ]
+        }
+      },
+      {
+        "$type": "KeyboardRecordAndPlay.KeyEvents, KeyboardRecordAndPlay",
+        "TimerTick": 241,
+        "Events": {
+          "$type": "KeyboardRecordAndPlay.KeyEvent[], KeyboardRecordAndPlay",
+          "$values": [
+            {
+              "$type": "KeyboardRecordAndPlay.KeyEvent, KeyboardRecordAndPlay",
+              "Key": 26,
+              "IsKeyDown": false
+            }
+          ]
+        }
+      },
+      {
+        "$type": "KeyboardRecordAndPlay.KeyEvents, KeyboardRecordAndPlay",
+        "TimerTick": 243,
+        "Events": {
+          "$type": "KeyboardRecordAndPlay.KeyEvent[], KeyboardRecordAndPlay",
+          "$values": [
+            {
+              "$type": "KeyboardRecordAndPlay.KeyEvent, KeyboardRecordAndPlay",
+              "Key": 24,
+              "IsKeyDown": true
+            }
+          ]
+        }
+      },
+      {
+        "$type": "KeyboardRecordAndPlay.KeyEvents, KeyboardRecordAndPlay",
+        "TimerTick": 248,
+        "Events": {
+          "$type": "KeyboardRecordAndPlay.KeyEvent[], KeyboardRecordAndPlay",
+          "$values": [
+            {
+              "$type": "KeyboardRecordAndPlay.KeyEvent, KeyboardRecordAndPlay",
+              "Key": 24,
+              "IsKeyDown": false
+            }
+          ]
+        }
+      },
+      {
+        "$type": "KeyboardRecordAndPlay.KeyEvents, KeyboardRecordAndPlay",
+        "TimerTick": 274,
+        "Events": {
+          "$type": "KeyboardRecordAndPlay.KeyEvent[], KeyboardRecordAndPlay",
+          "$values": [
+            {
+              "$type": "KeyboardRecordAndPlay.KeyEvent, KeyboardRecordAndPlay",
+              "Key": 24,
+              "IsKeyDown": true
+            }
+          ]
+        }
+      },
+      {
+        "$type": "KeyboardRecordAndPlay.KeyEvents, KeyboardRecordAndPlay",
+        "TimerTick": 357,
+        "Events": {
+          "$type": "KeyboardRecordAndPlay.KeyEvent[], KeyboardRecordAndPlay",
+          "$values": [
+            {
+              "$type": "KeyboardRecordAndPlay.KeyEvent, KeyboardRecordAndPlay",
+              "Key": 24,
+              "IsKeyDown": false
+            }
+          ]
+        }
+      },
+      {
+        "$type": "KeyboardRecordAndPlay.KeyEvents, KeyboardRecordAndPlay",
+        "TimerTick": 361,
+        "Events": {
+          "$type": "KeyboardRecordAndPlay.KeyEvent[], KeyboardRecordAndPlay",
+          "$values": [
+            {
+              "$type": "KeyboardRecordAndPlay.KeyEvent, KeyboardRecordAndPlay",
+              "Key": 18,
+              "IsKeyDown": true
+            }
+          ]
+        }
+      },
+      {
+        "$type": "KeyboardRecordAndPlay.KeyEvents, KeyboardRecordAndPlay",
+        "TimerTick": 364,
+        "Events": {
+          "$type": "KeyboardRecordAndPlay.KeyEvent[], KeyboardRecordAndPlay",
+          "$values": [
+            {
+              "$type": "KeyboardRecordAndPlay.KeyEvent, KeyboardRecordAndPlay",
+              "Key": 18,
+              "IsKeyDown": false
+            }
+          ]
+        }
+      },
+      {
+        "$type": "KeyboardRecordAndPlay.KeyEvents, KeyboardRecordAndPlay",
+        "TimerTick": 368,
+        "Events": {
+          "$type": "KeyboardRecordAndPlay.KeyEvent[], KeyboardRecordAndPlay",
+          "$values": [
+            {
+              "$type": "KeyboardRecordAndPlay.KeyEvent, KeyboardRecordAndPlay",
+              "Key": 26,
+              "IsKeyDown": true
+            }
+          ]
+        }
+      },
+      {
+        "$type": "KeyboardRecordAndPlay.KeyEvents, KeyboardRecordAndPlay",
+        "TimerTick": 370,
+        "Events": {
+          "$type": "KeyboardRecordAndPlay.KeyEvent[], KeyboardRecordAndPlay",
+          "$values": [
+            {
+              "$type": "KeyboardRecordAndPlay.KeyEvent, KeyboardRecordAndPlay",
+              "Key": 25,
+              "IsKeyDown": true
+            }
+          ]
+        }
+      },
+      {
+        "$type": "KeyboardRecordAndPlay.KeyEvents, KeyboardRecordAndPlay",
+        "TimerTick": 381,
+        "Events": {
+          "$type": "KeyboardRecordAndPlay.KeyEvent[], KeyboardRecordAndPlay",
+          "$values": [
+            {
+              "$type": "KeyboardRecordAndPlay.KeyEvent, KeyboardRecordAndPlay",
+              "Key": 25,
+              "IsKeyDown": false
+            }
+          ]
+        }
+      },
+      {
+        "$type": "KeyboardRecordAndPlay.KeyEvents, KeyboardRecordAndPlay",
+        "TimerTick": 382,
+        "Events": {
+          "$type": "KeyboardRecordAndPlay.KeyEvent[], KeyboardRecordAndPlay",
+          "$values": [
+            {
+              "$type": "KeyboardRecordAndPlay.KeyEvent, KeyboardRecordAndPlay",
+              "Key": 26,
+              "IsKeyDown": false
+            }
+          ]
+        }
+      },
+      {
+        "$type": "KeyboardRecordAndPlay.KeyEvents, KeyboardRecordAndPlay",
+        "TimerTick": 401,
+        "Events": {
+          "$type": "KeyboardRecordAndPlay.KeyEvent[], KeyboardRecordAndPlay",
+          "$values": [
+            {
+              "$type": "KeyboardRecordAndPlay.KeyEvent, KeyboardRecordAndPlay",
+              "Key": 24,
+              "IsKeyDown": true
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "TimerTicks": 438
+}

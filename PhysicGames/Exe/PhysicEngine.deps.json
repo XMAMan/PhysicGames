@@ -1,0 +1,929 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "PhysicEngine/1.0.0": {
+        "dependencies": {
+          "AstroidsControl": "1.0.0",
+          "ElmaControl": "1.0.0",
+          "KeyFrameEditorControl": "1.0.0",
+          "LevelEditorControl": "1.0.0",
+          "MoonlanderControl": "1.0.0",
+          "MovementEditorControl": "1.0.0",
+          "PhysicSceneSimulatorControl": "1.0.0",
+          "PhysicSceneTestbedControl": "1.0.0",
+          "PowerArgs": "4.0.3",
+          "ReactiveUI": "19.5.39",
+          "ReactiveUI.Fody": "19.5.39",
+          "ReactiveUI.WPF": "19.5.39",
+          "SkiJumperControl": "1.0.0",
+          "TextureEditorControl": "1.0.0",
+          "WpfControls": "1.0.0",
+          "GraphicPanels": "1.0.0.0",
+          "GraphicPanelWpf": "1.0.0.0",
+          "SoundEngine": "1.0.0.0"
+        },
+        "runtime": {
+          "PhysicEngine.dll": {}
+        }
+      },
+      "DynamicData/8.3.27": {
+        "dependencies": {
+          "System.Reactive": "6.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/DynamicData.dll": {
+            "assemblyVersion": "8.3.0.0",
+            "fileVersion": "8.3.27.26536"
+          }
+        }
+      },
+      "Fody/6.8.0": {},
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "PowerArgs/4.0.3": {
+        "runtime": {
+          "lib/net6.0/PowerArgs.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.0.3.0"
+          }
+        }
+      },
+      "ReactiveUI/19.5.39": {
+        "dependencies": {
+          "DynamicData": "8.3.27",
+          "Splat": "14.8.12",
+          "System.ComponentModel.Annotations": "5.0.0",
+          "System.Text.Json": "8.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/ReactiveUI.dll": {
+            "assemblyVersion": "19.5.0.0",
+            "fileVersion": "19.5.39.39990"
+          }
+        }
+      },
+      "ReactiveUI.Fody/19.5.39": {
+        "dependencies": {
+          "Fody": "6.8.0",
+          "ReactiveUI": "19.5.39"
+        },
+        "runtime": {
+          "lib/net7.0/ReactiveUI.Fody.Helpers.dll": {
+            "assemblyVersion": "19.5.0.0",
+            "fileVersion": "19.5.39.39990"
+          }
+        }
+      },
+      "ReactiveUI.WPF/19.5.39": {
+        "dependencies": {
+          "ReactiveUI": "19.5.39"
+        },
+        "runtime": {
+          "lib/net462/ReactiveUI.Wpf.dll": {
+            "assemblyVersion": "19.5.0.0",
+            "fileVersion": "19.5.39.39990"
+          }
+        }
+      },
+      "Splat/14.8.12": {
+        "runtime": {
+          "lib/net7.0/Splat.dll": {
+            "assemblyVersion": "14.8.0.0",
+            "fileVersion": "14.8.12.56860"
+          }
+        }
+      },
+      "System.ComponentModel.Annotations/5.0.0": {},
+      "System.Drawing.Common/8.0.1": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.123.58006"
+          }
+        }
+      },
+      "System.Reactive/6.0.0": {
+        "runtime": {
+          "lib/net6.0/System.Reactive.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.1"
+          }
+        }
+      },
+      "System.Text.Encodings.Web/8.0.0": {
+        "runtime": {
+          "lib/net7.0/System.Text.Encodings.Web.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/browser/lib/net7.0/System.Text.Encodings.Web.dll": {
+            "rid": "browser",
+            "assetType": "runtime",
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "System.Text.Json/8.0.0": {
+        "dependencies": {
+          "System.Text.Encodings.Web": "8.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/System.Text.Json.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "AstroidsControl/1.0.0": {
+        "dependencies": {
+          "GameHelper": "1.0.0",
+          "ReactiveUI": "19.5.39",
+          "ReactiveUI.Fody": "19.5.39",
+          "ReactiveUI.WPF": "19.5.39",
+          "WpfControls": "1.0.0"
+        },
+        "runtime": {
+          "AstroidsControl.dll": {}
+        }
+      },
+      "DynamicObjCreation/1.0.0": {
+        "dependencies": {
+          "LevelEditorGlobal": "1.0.0",
+          "LevelToSimulatorConverter": "1.0.0",
+          "PhysicSceneDrawing": "1.0.0",
+          "RigidBodyPhysics": "1.0.0"
+        },
+        "runtime": {
+          "DynamicObjCreation.dll": {}
+        }
+      },
+      "ElmaControl/1.0.0": {
+        "dependencies": {
+          "GameHelper": "1.0.0",
+          "LevelEditorControl": "1.0.0",
+          "MovementEditorControl": "1.0.0",
+          "ReactiveUI": "19.5.39",
+          "ReactiveUI.Fody": "19.5.39",
+          "ReactiveUI.WPF": "19.5.39",
+          "WpfControls": "1.0.0"
+        },
+        "runtime": {
+          "ElmaControl.dll": {}
+        }
+      },
+      "GameHelper/1.0.0": {
+        "dependencies": {
+          "DynamicObjCreation": "1.0.0",
+          "LevelEditorControl": "1.0.0",
+          "LevelEditorGlobal": "1.0.0",
+          "RigidBodyPhysics": "1.0.0",
+          "Simulator": "1.0.0",
+          "WpfControls": "1.0.0"
+        },
+        "runtime": {
+          "GameHelper.dll": {}
+        }
+      },
+      "JsonHelper/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "JsonHelper.dll": {}
+        }
+      },
+      "KeyboardRecordAndPlay/1.0.0": {
+        "runtime": {
+          "KeyboardRecordAndPlay.dll": {}
+        }
+      },
+      "KeyFrameEditorControl/1.0.0": {
+        "dependencies": {
+          "JsonHelper": "1.0.0",
+          "KeyFramePhysicImporter": "1.0.0",
+          "ReactiveUI": "19.5.39",
+          "ReactiveUI.Fody": "19.5.39",
+          "ReactiveUI.WPF": "19.5.39",
+          "System.Drawing.Common": "8.0.1",
+          "WpfControls": "1.0.0"
+        },
+        "runtime": {
+          "KeyFrameEditorControl.dll": {}
+        }
+      },
+      "KeyFrameGlobal/1.0.0": {
+        "dependencies": {
+          "WpfControls": "1.0.0"
+        },
+        "runtime": {
+          "KeyFrameGlobal.dll": {}
+        }
+      },
+      "KeyFramePhysicImporter/1.0.0": {
+        "dependencies": {
+          "JsonHelper": "1.0.0",
+          "KeyFrameGlobal": "1.0.0",
+          "ReactiveUI": "19.5.39",
+          "ReactiveUI.Fody": "19.5.39",
+          "ReactiveUI.WPF": "19.5.39",
+          "RigidBodyPhysics": "1.0.0",
+          "WpfControls": "1.0.0"
+        },
+        "runtime": {
+          "KeyFramePhysicImporter.dll": {}
+        }
+      },
+      "LevelEditorControl/1.0.0": {
+        "dependencies": {
+          "JsonHelper": "1.0.0",
+          "KeyboardRecordAndPlay": "1.0.0",
+          "LevelToSimulatorConverter": "1.0.0",
+          "PhysicItemEditorControl": "1.0.0",
+          "PhysicSceneKeyboardControl": "1.0.0",
+          "ReactiveUI": "19.5.39",
+          "ReactiveUI.Fody": "19.5.39",
+          "ReactiveUI.WPF": "19.5.39",
+          "Simulator": "1.0.0"
+        },
+        "runtime": {
+          "LevelEditorControl.dll": {}
+        }
+      },
+      "LevelEditorGlobal/1.0.0": {
+        "dependencies": {
+          "KeyFrameGlobal": "1.0.0",
+          "RigidBodyPhysics": "1.0.0",
+          "TextureEditorGlobal": "1.0.0",
+          "WpfControls": "1.0.0"
+        },
+        "runtime": {
+          "LevelEditorGlobal.dll": {}
+        }
+      },
+      "LevelToSimulatorConverter/1.0.0": {
+        "dependencies": {
+          "JsonHelper": "1.0.0",
+          "KeyFrameEditorControl": "1.0.0",
+          "KeyFrameGlobal": "1.0.0",
+          "KeyFramePhysicImporter": "1.0.0",
+          "PhysicItemEditorControl": "1.0.0",
+          "RigidBodyPhysics": "1.0.0",
+          "TextureEditorControl": "1.0.0",
+          "TextureEditorGlobal": "1.0.0"
+        },
+        "runtime": {
+          "LevelToSimulatorConverter.dll": {}
+        }
+      },
+      "MoonlanderControl/1.0.0": {
+        "dependencies": {
+          "GameHelper": "1.0.0",
+          "ReactiveUI": "19.5.39",
+          "ReactiveUI.Fody": "19.5.39",
+          "ReactiveUI.WPF": "19.5.39",
+          "WpfControls": "1.0.0"
+        },
+        "runtime": {
+          "MoonlanderControl.dll": {}
+        }
+      },
+      "MovementEditorControl/1.0.0": {
+        "dependencies": {
+          "PhysicItemEditorControl": "1.0.0",
+          "ReactiveUI": "19.5.39",
+          "ReactiveUI.Fody": "19.5.39",
+          "ReactiveUI.WPF": "19.5.39"
+        },
+        "runtime": {
+          "MovementEditorControl.dll": {}
+        }
+      },
+      "PhysicItemEditorControl/1.0.0": {
+        "dependencies": {
+          "KeyFrameEditorControl": "1.0.0",
+          "LevelEditorGlobal": "1.0.0",
+          "PhysicSceneEditorControl": "1.0.0",
+          "PhysicSceneKeyboardControl": "1.0.0",
+          "ReactiveUI": "19.5.39",
+          "ReactiveUI.Fody": "19.5.39",
+          "ReactiveUI.WPF": "19.5.39",
+          "RigidBodyPhysics": "1.0.0",
+          "TextureEditorControl": "1.0.0",
+          "WpfControls": "1.0.0"
+        },
+        "runtime": {
+          "PhysicItemEditorControl.dll": {}
+        }
+      },
+      "PhysicSceneDrawing/1.0.0": {
+        "dependencies": {
+          "RigidBodyPhysics": "1.0.0",
+          "TextureEditorGlobal": "1.0.0"
+        },
+        "runtime": {
+          "PhysicSceneDrawing.dll": {}
+        }
+      },
+      "PhysicSceneEditorControl/1.0.0": {
+        "dependencies": {
+          "JsonHelper": "1.0.0",
+          "ReactiveUI": "19.5.39",
+          "ReactiveUI.Fody": "19.5.39",
+          "ReactiveUI.WPF": "19.5.39",
+          "RigidBodyPhysics": "1.0.0",
+          "WpfControls": "1.0.0"
+        },
+        "runtime": {
+          "PhysicSceneEditorControl.dll": {}
+        }
+      },
+      "PhysicSceneKeyboardControl/1.0.0": {
+        "dependencies": {
+          "KeyFrameGlobal": "1.0.0",
+          "RigidBodyPhysics": "1.0.0"
+        },
+        "runtime": {
+          "PhysicSceneKeyboardControl.dll": {}
+        }
+      },
+      "PhysicSceneSimulatorControl/1.0.0": {
+        "dependencies": {
+          "JsonHelper": "1.0.0",
+          "ReactiveUI": "19.5.39",
+          "ReactiveUI.Fody": "19.5.39",
+          "ReactiveUI.WPF": "19.5.39",
+          "RigidBodyPhysics": "1.0.0",
+          "WpfControls": "1.0.0"
+        },
+        "runtime": {
+          "PhysicSceneSimulatorControl.dll": {}
+        }
+      },
+      "PhysicSceneTestbedControl/1.0.0": {
+        "dependencies": {
+          "PhysicSceneEditorControl": "1.0.0",
+          "PhysicSceneSimulatorControl": "1.0.0",
+          "ReactiveUI": "19.5.39",
+          "ReactiveUI.Fody": "19.5.39",
+          "ReactiveUI.WPF": "19.5.39",
+          "WpfControls": "1.0.0"
+        },
+        "runtime": {
+          "PhysicSceneTestbedControl.dll": {}
+        }
+      },
+      "RigidBodyPhysics/1.0.0": {
+        "runtime": {
+          "RigidBodyPhysics.dll": {}
+        }
+      },
+      "Simulator/1.0.0": {
+        "dependencies": {
+          "KeyFrameGlobal": "1.0.0",
+          "KeyFramePhysicImporter": "1.0.0",
+          "LevelEditorGlobal": "1.0.0",
+          "PhysicSceneDrawing": "1.0.0",
+          "PhysicSceneKeyboardControl": "1.0.0",
+          "RigidBodyPhysics": "1.0.0",
+          "TextureEditorGlobal": "1.0.0",
+          "WpfControls": "1.0.0"
+        },
+        "runtime": {
+          "Simulator.dll": {}
+        }
+      },
+      "SkiJumperControl/1.0.0": {
+        "dependencies": {
+          "GameHelper": "1.0.0",
+          "ReactiveUI": "19.5.39",
+          "ReactiveUI.Fody": "19.5.39",
+          "ReactiveUI.WPF": "19.5.39",
+          "WpfControls": "1.0.0"
+        },
+        "runtime": {
+          "SkiJumperControl.dll": {}
+        }
+      },
+      "TextureEditorControl/1.0.0": {
+        "dependencies": {
+          "JsonHelper": "1.0.0",
+          "PhysicSceneDrawing": "1.0.0",
+          "ReactiveUI": "19.5.39",
+          "ReactiveUI.Fody": "19.5.39",
+          "ReactiveUI.WPF": "19.5.39",
+          "TexturePhysicImporter": "1.0.0",
+          "WpfControls": "1.0.0"
+        },
+        "runtime": {
+          "TextureEditorControl.dll": {}
+        }
+      },
+      "TextureEditorGlobal/1.0.0": {
+        "runtime": {
+          "TextureEditorGlobal.dll": {}
+        }
+      },
+      "TexturePhysicImporter/1.0.0": {
+        "dependencies": {
+          "JsonHelper": "1.0.0",
+          "RigidBodyPhysics": "1.0.0",
+          "TextureEditorGlobal": "1.0.0"
+        },
+        "runtime": {
+          "TexturePhysicImporter.dll": {}
+        }
+      },
+      "WpfControls/1.0.0": {
+        "dependencies": {
+          "ReactiveUI": "19.5.39",
+          "ReactiveUI.Fody": "19.5.39",
+          "ReactiveUI.WPF": "19.5.39"
+        },
+        "runtime": {
+          "WpfControls.dll": {}
+        }
+      },
+      "GraphicPanels/1.0.0.0": {
+        "runtime": {
+          "GraphicPanels.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "GraphicPanelWpf/1.0.0.0": {
+        "runtime": {
+          "GraphicPanelWpf.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SoundEngine/1.0.0.0": {
+        "runtime": {
+          "SoundEngine.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "GraphicMinimal/1.0.0.0": {
+        "runtime": {
+          "GraphicMinimal.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "BitmapHelper/1.0.0.0": {
+        "runtime": {
+          "BitmapHelper.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "GraphicGlobal/1.0.0.0": {
+        "runtime": {
+          "GraphicGlobal.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Rasterizer/1.0.0.0": {
+        "runtime": {
+          "Rasterizer.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "GraphicPipelineCPU/1.0.0.0": {
+        "runtime": {
+          "GraphicPipelineCPU.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "GraphicPipelineOpenGLv3_0/1.0.0.0": {
+        "runtime": {
+          "GraphicPipelineOpenGLv3_0.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "WaveMaker/1.0.0.0": {
+        "runtime": {
+          "WaveMaker.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "NAudioWaveMaker/1.0.0.0": {
+        "runtime": {
+          "NAudioWaveMaker.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "OpenTK.GLControl/1.1.0.0": {
+        "runtime": {
+          "OpenTK.GLControl.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.1433.53671"
+          }
+        }
+      },
+      "OpenTK/1.1.0.0": {
+        "runtime": {
+          "OpenTK.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.1433.53671"
+          }
+        }
+      },
+      "MidiParser/1.0.0.0": {
+        "runtime": {
+          "MidiParser.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "NAudio/1.10.0.0": {
+        "runtime": {
+          "NAudio.dll": {
+            "assemblyVersion": "1.10.0.0",
+            "fileVersion": "1.10.0.0"
+          }
+        }
+      },
+      "NAudio.Lame/1.1.0.0": {
+        "runtime": {
+          "NAudio.Lame.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PhysicEngine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DynamicData/8.3.27": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m5PGnTbFCE04xrH3peeNtiHrXJM5Vxk6Sy9bwXm8ahZ+/ZavqYb8XstBD1GFqcU7g6f8YD3zPcI7XkkW3Y1Ang==",
+      "path": "dynamicdata/8.3.27",
+      "hashPath": "dynamicdata.8.3.27.nupkg.sha512"
+    },
+    "Fody/6.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hfZ/f8Mezt8aTkgv9nsvFdYoQ809/AqwsJlOGOPYIfBcG2aAIG3v3ex9d8ZqQuFYyMoucjRg4eKy3VleeGodKQ==",
+      "path": "fody/6.8.0",
+      "hashPath": "fody.6.8.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9opKRyOKMCi2xJ7Bj7kxtZ1r9vbzosMvRrdEhVhDz8j8MoBGgB+WmC94yH839NPH+BclAjtQ/pyagvi/8gDLkw==",
+      "path": "microsoft.win32.systemevents/8.0.0",
+      "hashPath": "microsoft.win32.systemevents.8.0.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "PowerArgs/4.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8baSCh4j3oF6nQYkfnERl3pk5vvidJmx6LUIdNVV2F7whx0+BuE4QUwHX+lczHUHAFKDJKABXrjrSZzAJlfWxA==",
+      "path": "powerargs/4.0.3",
+      "hashPath": "powerargs.4.0.3.nupkg.sha512"
+    },
+    "ReactiveUI/19.5.39": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Kxy0Key0oon45MZI/Nj817gelfWahqhhLvQpC/8oqDqcwXxbgulvggTMYW81fdCI4IttClmK/b0GZhBymPjEgA==",
+      "path": "reactiveui/19.5.39",
+      "hashPath": "reactiveui.19.5.39.nupkg.sha512"
+    },
+    "ReactiveUI.Fody/19.5.39": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oWm9z2WiiZ+IKKiGZ2oQjcdtZOuo2hBKELNwExX+FRmXw1vJ0cVBzDhavnqaW7R4+GmByBHw/cMhVijJ2omLdA==",
+      "path": "reactiveui.fody/19.5.39",
+      "hashPath": "reactiveui.fody.19.5.39.nupkg.sha512"
+    },
+    "ReactiveUI.WPF/19.5.39": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fOx6xuSUHHxxzSqsqsC9nV/2xzl5jRTPwr1dNLP30BK5FnTdyqY6d+y3q4CkfclPJw8xNhyBtd3OCrrmVxCjMQ==",
+      "path": "reactiveui.wpf/19.5.39",
+      "hashPath": "reactiveui.wpf.19.5.39.nupkg.sha512"
+    },
+    "Splat/14.8.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7dTp+hgC2CS4DqjHtgkeS7hsECbpD09ukGwxL63HVM/aih9zseIaIjWhS6sQWlWw5GDvli8bVMHeZ1dekgmuvQ==",
+      "path": "splat/14.8.12",
+      "hashPath": "splat.14.8.12.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dMkqfy2el8A8/I76n2Hi1oBFEbG1SfxD2l5nhwXV3XjlnOmwxJlQbYpJH4W51odnU9sARCSAgv7S3CyAFMkpYg==",
+      "path": "system.componentmodel.annotations/5.0.0",
+      "hashPath": "system.componentmodel.annotations.5.0.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x0rAZECxIGx/YVjN28YRdpqka0+H7YMN9741FUDzipXPDzesd60gef/LI0ZCOcYSDsacTLTHvMAvxHG+TjbNNQ==",
+      "path": "system.drawing.common/8.0.1",
+      "hashPath": "system.drawing.common.8.0.1.nupkg.sha512"
+    },
+    "System.Reactive/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-31kfaW4ZupZzPsI5PVe77VhnvFF55qgma7KZr/E0iFTs6fmdhhG8j0mgEx620iLTey1EynOkEfnyTjtNEpJzGw==",
+      "path": "system.reactive/6.0.0",
+      "hashPath": "system.reactive.6.0.0.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yev/k9GHAEGx2Rg3/tU6MQh4HGBXJs70y7j1LaM1i/ER9po+6nnQ6RRqTJn1E7Xu0fbIFK80Nh5EoODxrbxwBQ==",
+      "path": "system.text.encodings.web/8.0.0",
+      "hashPath": "system.text.encodings.web.8.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OdrZO2WjkiEG6ajEFRABTRCi/wuXQPxeV6g8xvUJqdxMvvuCCEk86zPla8UiIQJz3durtUEbNyY/3lIhS0yZvQ==",
+      "path": "system.text.json/8.0.0",
+      "hashPath": "system.text.json.8.0.0.nupkg.sha512"
+    },
+    "AstroidsControl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DynamicObjCreation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ElmaControl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GameHelper/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JsonHelper/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KeyboardRecordAndPlay/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KeyFrameEditorControl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KeyFrameGlobal/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KeyFramePhysicImporter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LevelEditorControl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LevelEditorGlobal/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LevelToSimulatorConverter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MoonlanderControl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MovementEditorControl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PhysicItemEditorControl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PhysicSceneDrawing/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PhysicSceneEditorControl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PhysicSceneKeyboardControl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PhysicSceneSimulatorControl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PhysicSceneTestbedControl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RigidBodyPhysics/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Simulator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SkiJumperControl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TextureEditorControl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TextureEditorGlobal/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TexturePhysicImporter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WpfControls/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GraphicPanels/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GraphicPanelWpf/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SoundEngine/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GraphicMinimal/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BitmapHelper/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GraphicGlobal/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Rasterizer/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GraphicPipelineCPU/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GraphicPipelineOpenGLv3_0/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WaveMaker/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NAudioWaveMaker/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OpenTK.GLControl/1.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OpenTK/1.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MidiParser/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NAudio/1.10.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NAudio.Lame/1.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
