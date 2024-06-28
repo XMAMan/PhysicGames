@@ -1,0 +1,1 @@
+Exe\PhysicEngine.exe -dataFolder Data\SkiJumper\ -mode SkiJumper
